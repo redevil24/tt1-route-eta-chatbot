@@ -1,8 +1,8 @@
-# TT1 – Route & ETA Chatbot (Telegram) using OpenStreetMap Services
+# TT1 – Route & ETA Chatbot (Telegram)
 
-This repository contains the implementation of **TT1 (Thực tập 1)** – a Python-based Telegram chatbot that helps users **find routes and estimate travel time (ETA)** between two locations through a guided conversation.
+A Python-based Telegram chatbot that helps users **find routes and estimate travel time (ETA)** between two locations.
 
-The chatbot integrates **OpenStreetMap-based services** and is designed with a **Finite State Machine (FSM)** to ensure a clear and robust interaction flow.
+The system integrates **OpenStreetMap services** (Nominatim, OSRM) and uses a **Finite State Machine (FSM)** to manage a clear, step-by-step conversation flow.
 
 ---
 
