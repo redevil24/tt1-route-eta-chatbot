@@ -28,13 +28,13 @@ This project emphasizes **system implementation and API orchestration**, rather 
 ## Chatbot Demo
 
 ### 1. Start & command usage
-<img src="assets/demo-01-start.png" width="480"/>
+<img src="assets/demo-01-start.png" width="420"/>
 
 ### 2. Location disambiguation (top-3 candidates)
-<img src="assets/demo-03-candidates.png" width="480"/>
+<img src="assets/demo-03-candidates.png" width="420"/>
 
 ### 3. Route result & ETA
-<img src="assets/demo-07-result.png" width="480"/>
+<img src="assets/demo-07-result.png" width="420"/>
 
 ### 4. OpenStreetMap route visualization
 <img src="assets/demo-08-osm-map.png" width="90%"/>
