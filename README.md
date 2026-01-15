@@ -20,7 +20,7 @@ This project emphasizes **system implementation and API orchestration**, rather 
 ## System Architecture
 
 <p align="center">
-  <img src="assets/system-architecture.png" width="900">
+  <img src="assets/system-architecture.png" width="800">
 </p>
 
 ---
@@ -28,16 +28,16 @@ This project emphasizes **system implementation and API orchestration**, rather 
 ## Chatbot Demo
 
 ### 1. Start & command usage
-<img src="assets/demo-01-start.png" width="500"/>
+<img src="assets/demo-01-start.png" width="480"/>
 
-### 2. Location disambiguation (top-N candidates)
-<img src="assets/demo-03-candidates.png" width="500"/>
+### 2. Location disambiguation (top-3 candidates)
+<img src="assets/demo-03-candidates.png" width="480"/>
 
 ### 3. Route result & ETA
-<img src="assets/demo-07-result.png" width="500"/>
+<img src="assets/demo-07-result.png" width="480"/>
 
 ### 4. OpenStreetMap route visualization
-<img src="assets/demo-08-osm-map.png" width="95%"/>
+<img src="assets/demo-08-osm-map.png" width="80%"/>
 
 
 ---
