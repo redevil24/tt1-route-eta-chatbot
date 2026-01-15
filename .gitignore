@@ -8,10 +8,6 @@ venv/
 __pycache__/
 *.pyc
 
-# Test files
-*_test.py
-test.py
-
 # IDE
 .vscode/
 .idea/
