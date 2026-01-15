@@ -37,7 +37,7 @@ This project emphasizes **system implementation and API orchestration**, rather 
 <img src="assets/demo-07-result.png" width="420"/>
 
 ### 4. OpenStreetMap route visualization
-<img src="assets/demo-08-osm-map.png" width="95%"/>
+<img src="assets/demo-08-osm-map.png" width="98%"/>
 
 
 ---
