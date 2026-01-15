@@ -1,20 +1,76 @@
-# TT1 – Route & ETA Chatbot
+# TT1 – Route & ETA Chatbot (Telegram) using OpenStreetMap Services
 
-Chatbot Telegram hỗ trợ tìm đường và ước tính thời gian di chuyển (ETA),
-sử dụng FSM và các dịch vụ bản đồ OpenStreetMap.
+This repository contains the implementation of **TT1 (Thực tập 1)** – a Python-based Telegram chatbot that helps users **find routes and estimate travel time (ETA)** between two locations through a guided conversation.
 
-## Features
-- Multi-turn conversation (FSM)
-- Geocoding: Nominatim
-- Routing: OSRM (public)
-- Telegram Bot interface
+The chatbot integrates **OpenStreetMap-based services** and is designed with a **Finite State Machine (FSM)** to ensure a clear and robust interaction flow.
 
-## Tech Stack
-- Python
-- python-telegram-bot
-- OpenStreetMap APIs
+---
 
-## Run
+## Project Context
+
+- **Course**: Thực tập 1 (TT1) – Master Program, HCMUT  
+- **Major**: Computer Science  
+- **Type**: Individual academic project  
+- **Focus**: Python backend, API integration, conversation flow design
+
+This project emphasizes **system implementation and API orchestration**, rather than machine learning.
+
+---
+
+## System Architecture
+
+![System Architecture](assets/system-architecture.png)
+
+---
+
+## Chatbot Demo
+
+### 1. Start & command usage
+![Start](assets/demo-01-start.png)
+
+### 2. Location disambiguation (top-3 candidates)
+![Candidates](assets/demo-03-candidates.png)
+
+### 3. Route result & ETA
+![Result](assets/demo-07-result.png)
+
+### 4. OpenStreetMap route visualization
+![OSM Map](assets/demo-08-osm-map.png)
+
+---
+
+## Key Features
+
+- Step-by-step route collection using chat commands
+- FSM-based conversation control
+- Top-3 location candidates for ambiguous user input
+- Distance and ETA calculation via OSRM
+- OpenStreetMap direction link generation
+- Graceful handling of invalid or cancelled requests
+
+---
+
+## How to Run
+
+### 1. Install dependencies
+
 ```bash
 pip install -r requirements.txt
+```
+
+### 2. Create environment configuration
+
+Create a file named `.env` in the project root with the following content:
+
+```env
+TELEGRAM_BOT_TOKEN=your_bot_token_here
+```
+
+> **Note:** Do not commit the `.env` to GitHub. It is intentionally ignored.
+
+### 3. Run the bot
+
+```bash
 python main.py
+```
+
