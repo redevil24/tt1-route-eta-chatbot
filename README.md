@@ -20,24 +20,24 @@ This project emphasizes **system implementation and API orchestration**, rather 
 ## System Architecture
 
 <p align="center">
-  <img src="assets/system-architecture.png" width="800">
+  <img src="assets/system-architecture.png" width="900">
 </p>
 
 ---
 
 ## Chatbot Demo
 
-### 1. Start, disambiguation, and result
-<p align="center" style="white-space: nowrap;">
-  <img src="assets/demo-01-start.png" width="32%" />
-  <img src="assets/demo-03-candidates.png" width="32%" />
-  <img src="assets/demo-07-result.png" width="32%" />
-</p>
+### 1. Start & command usage
+<img src="assets/demo-01-start.png" width="500"/>
 
-### 2. Route visualization on OpenStreetMap
-<p align="center">
-  <img src="assets/demo-08-osm-map.png" style="width:95%;"">
-</p>
+### 2. Location disambiguation (top-N candidates)
+<img src="assets/demo-03-candidates.png" width="500"/>
+
+### 3. Route result & ETA
+<img src="assets/demo-07-result.png" width="500"/>
+
+### 4. OpenStreetMap route visualization
+<img src="assets/demo-08-osm-map.png" width="95%"/>
 
 
 ---
